@@ -4,14 +4,13 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-		int x = 4;
-		int y = x + 2;
-		int i = 0;
-		for (i = 0; i<x; i++) {
-		System.out.print(x+" "+y);
-		y = y + i;
-		}
-
+		int i = 1;
+		int y = 0;
+		int x = 10;
+		for (i=1; i<5; i++){
+			y = i - 1;
+			x = i * 10;
+			System.out.print(i);
+			}
 	}
-
 }
