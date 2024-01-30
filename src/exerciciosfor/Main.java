@@ -4,12 +4,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int x = 4;
-		int y = 0;
+		int x = 8;
+		int y = 3;
 		int i = 0;
-		for (i=0; i<x; i++) {
-		y = y + i;
+		for (i=0; y<x; i++){
+		 x = x - 2;
+		 y = y + 1;
+		System.out.println(i);
 		}
-		System.out.println(y);
 	}
 }
+
